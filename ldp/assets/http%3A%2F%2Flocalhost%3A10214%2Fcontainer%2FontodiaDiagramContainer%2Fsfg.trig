@@ -1,0 +1,14 @@
+
+<http://localhost:10214/container/ontodiaDiagramContainer/sfg/context> {
+  _:genid-4c13ac75e22c4b2db7c725004001e6b7206-b0 a <http://ontodia.org/schema/v1#Layout> .
+  
+  <http://localhost:10214/container/ontodiaDiagramContainer/sfg> a <http://ontodia.org/schema/v1#Diagram>,
+      <http://www.w3.org/ns/prov#Entity>, <http://www.w3.org/ns/ldp#Resource>;
+    <http://ontodia.org/schema/v1#layoutData> _:genid-4c13ac75e22c4b2db7c725004001e6b7206-b0;
+    <http://www.w3.org/2000/01/rdf-schema#label> "sfg";
+    <http://www.w3.org/ns/prov#wasAttributedTo> <http://www.metaphacts.com/resource/user/admin>;
+    <http://www.w3.org/ns/prov#generatedAtTime> "2025-07-07T09:02:46.661Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+  
+  <http://www.metaphacts.com/ontologies/platform#ontodiaDiagramContainer> <http://www.w3.org/ns/ldp#contains>
+      <http://localhost:10214/container/ontodiaDiagramContainer/sfg> .
+}
